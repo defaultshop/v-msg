@@ -1,24 +1,21 @@
 # v-msg
 
-## Project setup
+## Install
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+npm install v-cyuyu-msg
 ```
 
-### Compiles and minifies for production
+### Example
 ```
-yarn build
+import vCyuyuMsg from 'v-cyuyu-msg'
+Vue.use(vCyuyuMsg)
 ```
 
-### Lints and fixes files
+### Use
 ```
-yarn lint
+this.$toast.message(msg: String, time: Number)
 ```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

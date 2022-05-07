@@ -1,12 +1,13 @@
 {
-  "name": "v-msg",
-  "version": "0.1.0",
+  "name": "v-cyuyu-msg",
+  "version": "0.1.1",
   "private": false,
+  "main": "./src/lib/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name v-msg --dest lib src/lib/index.js"
+    "lib": "vue-cli-service build --target lib --name v-cyuyu-msg --dest lib src/lib/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
